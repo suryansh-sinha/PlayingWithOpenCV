@@ -9,7 +9,7 @@ random.seed(42)
 img = cv2.imread('resources/lena.png', -1)
 
 # print(type(img))    # Images are represented as numpy arrays.
-# print(img.shape)    # 512 rows, 512 columns, 3 channels. HWC.
+# print(img.shape)    # 512 rows, 512 columns, 3 channels. WHC.
 # print(img[0])
 
 # Let's replace the first 100 pixel rows by random noise.

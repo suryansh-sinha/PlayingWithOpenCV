@@ -25,7 +25,7 @@ while True:
     canvas[:height//2, :width//2] = B  # Placing the blue frame on the top left.
     canvas[:height//2, width//2:] = G  # Placing the green frame on the top right.
     canvas[height//2:, :width//2] = R  # Placing the red frame on the bottom left.
-    canvas[height//2:, width//2:] = smaller_frame  # Placing the smaller frame on the bottom right.
+    canvas[height//2:, width//2:] = smaller_frame # Placing the smaller frame on the bottom right.
     
     cv2.imshow("Video Feed", canvas)
     
