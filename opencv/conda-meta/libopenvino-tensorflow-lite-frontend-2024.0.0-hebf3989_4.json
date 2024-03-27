@@ -1,0 +1,49 @@
+{
+  "build": "hebf3989_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=16",
+    "libopenvino 2024.0.0 he6dadac_4"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libopenvino-tensorflow-lite-frontend-2024.0.0-hebf3989_4",
+  "files": [
+    "lib/libopenvino_tensorflow_lite_frontend.2024.0.0.dylib",
+    "lib/libopenvino_tensorflow_lite_frontend.2400.dylib"
+  ],
+  "fn": "libopenvino-tensorflow-lite-frontend-2024.0.0-hebf3989_4.conda",
+  "license": "",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libopenvino-tensorflow-lite-frontend-2024.0.0-hebf3989_4",
+    "type": 1
+  },
+  "md5": "46de308a60f4d3361fa07c9ff23e3f08",
+  "name": "libopenvino-tensorflow-lite-frontend",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libopenvino-tensorflow-lite-frontend-2024.0.0-hebf3989_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino_tensorflow_lite_frontend.2024.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "4c859e051be949da27a9eed913274ee3fddb757bdc33b2398eb79df8f1186149",
+        "sha256_in_prefix": "4c859e051be949da27a9eed913274ee3fddb757bdc33b2398eb79df8f1186149",
+        "size_in_bytes": 1972000
+      },
+      {
+        "_path": "lib/libopenvino_tensorflow_lite_frontend.2400.dylib",
+        "path_type": "softlink",
+        "sha256": "4c859e051be949da27a9eed913274ee3fddb757bdc33b2398eb79df8f1186149",
+        "size_in_bytes": 1972000
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "de941d13292bb24caf0a906818058257b042668e53f7399a1dd7b858d6ef9a24",
+  "size": 374273,
+  "subdir": "osx-arm64",
+  "timestamp": 1711025833000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-tensorflow-lite-frontend-2024.0.0-hebf3989_4.conda",
+  "version": "2024.0.0"
+}

@@ -1,0 +1,50 @@
+{
+  "build": "h298fcef_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=16",
+    "libopenvino 2024.0.0 he6dadac_4",
+    "libprotobuf >=4.25.3,<4.25.4.0a0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libopenvino-onnx-frontend-2024.0.0-h298fcef_4",
+  "files": [
+    "lib/libopenvino_onnx_frontend.2024.0.0.dylib",
+    "lib/libopenvino_onnx_frontend.2400.dylib"
+  ],
+  "fn": "libopenvino-onnx-frontend-2024.0.0-h298fcef_4.conda",
+  "license": "",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libopenvino-onnx-frontend-2024.0.0-h298fcef_4",
+    "type": 1
+  },
+  "md5": "d3d7b3d5d7b9e59fdcf68bbbdbb571cc",
+  "name": "libopenvino-onnx-frontend",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libopenvino-onnx-frontend-2024.0.0-h298fcef_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino_onnx_frontend.2024.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "a796558f496d8a167541503ac6291bd396f10d57aaff7f5d3fb8660bf7c421c4",
+        "sha256_in_prefix": "a796558f496d8a167541503ac6291bd396f10d57aaff7f5d3fb8660bf7c421c4",
+        "size_in_bytes": 6328096
+      },
+      {
+        "_path": "lib/libopenvino_onnx_frontend.2400.dylib",
+        "path_type": "softlink",
+        "sha256": "a796558f496d8a167541503ac6291bd396f10d57aaff7f5d3fb8660bf7c421c4",
+        "size_in_bytes": 6328096
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4b8a7777d10b327fce52d8bab324d94ff12d5c3a008a40ddcd86699f5cebfa7c",
+  "size": 1198233,
+  "subdir": "osx-arm64",
+  "timestamp": 1711025605000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-onnx-frontend-2024.0.0-h298fcef_4.conda",
+  "version": "2024.0.0"
+}

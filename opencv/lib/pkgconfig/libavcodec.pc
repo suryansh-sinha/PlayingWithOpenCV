@@ -1,0 +1,14 @@
+prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+exec_prefix=${prefix}
+libdir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib
+includedir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: 
+Requires.private: libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lvpx -lm -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lvpx -lm -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lvpx -lm -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lvpx -lm -liconv -lm -llzma -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -ldav1d -framework AudioToolbox -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv//Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -laom -lmp3lame -lm -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lopus -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lSvtAv1Enc -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lx264 -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lx265 -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lopenh264 -pthread -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

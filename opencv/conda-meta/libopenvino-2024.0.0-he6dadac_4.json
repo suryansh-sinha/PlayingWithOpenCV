@@ -1,0 +1,65 @@
+{
+  "build": "he6dadac_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=16",
+    "pugixml >=1.14,<1.15.0a0",
+    "tbb >=2021.11.0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libopenvino-2024.0.0-he6dadac_4",
+  "files": [
+    "lib/libopenvino.2024.0.0.dylib",
+    "lib/libopenvino.2400.dylib",
+    "lib/libopenvino_c.2024.0.0.dylib",
+    "lib/libopenvino_c.2400.dylib"
+  ],
+  "fn": "libopenvino-2024.0.0-he6dadac_4.conda",
+  "license": "",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libopenvino-2024.0.0-he6dadac_4",
+    "type": 1
+  },
+  "md5": "48783d76d1cff4a85dada8fc8de4106b",
+  "name": "libopenvino",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libopenvino-2024.0.0-he6dadac_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino.2024.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "4c28518f05affd16611b125e66a8df98f6e229caefd155ecc119d7a8e40f71e4",
+        "sha256_in_prefix": "4c28518f05affd16611b125e66a8df98f6e229caefd155ecc119d7a8e40f71e4",
+        "size_in_bytes": 20558672
+      },
+      {
+        "_path": "lib/libopenvino.2400.dylib",
+        "path_type": "softlink",
+        "sha256": "4c28518f05affd16611b125e66a8df98f6e229caefd155ecc119d7a8e40f71e4",
+        "size_in_bytes": 20558672
+      },
+      {
+        "_path": "lib/libopenvino_c.2024.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "79c34a9da5cf2508c3c7ca2a6b977015ba924d402682eaba81958f2b1f030521",
+        "sha256_in_prefix": "79c34a9da5cf2508c3c7ca2a6b977015ba924d402682eaba81958f2b1f030521",
+        "size_in_bytes": 314960
+      },
+      {
+        "_path": "lib/libopenvino_c.2400.dylib",
+        "path_type": "softlink",
+        "sha256": "79c34a9da5cf2508c3c7ca2a6b977015ba924d402682eaba81958f2b1f030521",
+        "size_in_bytes": 314960
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc4c9e19a5314c6a50205f226062e0bcc6899749371fd6bf6399eafdff4b4adc",
+  "size": 3667126,
+  "subdir": "osx-arm64",
+  "timestamp": 1711025235000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-2024.0.0-he6dadac_4.conda",
+  "version": "2024.0.0"
+}

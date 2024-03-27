@@ -1,0 +1,10 @@
+prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+exec_prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+libdir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib
+includedir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

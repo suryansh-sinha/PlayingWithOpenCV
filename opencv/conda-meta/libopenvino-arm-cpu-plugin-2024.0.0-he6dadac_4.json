@@ -1,0 +1,44 @@
+{
+  "build": "he6dadac_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=16",
+    "libopenvino 2024.0.0 he6dadac_4",
+    "pugixml >=1.14,<1.15.0a0",
+    "tbb >=2021.11.0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libopenvino-arm-cpu-plugin-2024.0.0-he6dadac_4",
+  "files": [
+    "lib/openvino-2024.0.0/libopenvino_arm_cpu_plugin.so"
+  ],
+  "fn": "libopenvino-arm-cpu-plugin-2024.0.0-he6dadac_4.conda",
+  "license": "",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libopenvino-arm-cpu-plugin-2024.0.0-he6dadac_4",
+    "type": 1
+  },
+  "md5": "15808ae7cc119a909c2ef41e58a72c20",
+  "name": "libopenvino-arm-cpu-plugin",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libopenvino-arm-cpu-plugin-2024.0.0-he6dadac_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2024.0.0/libopenvino_arm_cpu_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "df8fa19c264e3193967cae24cf86fb025392d71edbe646f62f9b8f7332ea6c56",
+        "sha256_in_prefix": "df8fa19c264e3193967cae24cf86fb025392d71edbe646f62f9b8f7332ea6c56",
+        "size_in_bytes": 46633888
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "129eea1691443392ffe6887ae8b704774164a21d7a40b6677f1ce099865c9c08",
+  "size": 5910778,
+  "subdir": "osx-arm64",
+  "timestamp": 1711025307000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-arm-cpu-plugin-2024.0.0-he6dadac_4.conda",
+  "version": "2024.0.0"
+}

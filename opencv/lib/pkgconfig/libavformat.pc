@@ -1,0 +1,14 @@
+prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+exec_prefix=${prefix}
+libdir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib
+includedir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: 
+Requires.private: libavcodec >= 60.31.102, libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lxml2 -lbz2 -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lz -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lgnutls
+Cflags: -I${includedir}

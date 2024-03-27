@@ -1,0 +1,79 @@
+{
+  "build": "h2ffa867_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=15",
+    "libhwloc >=2.9.3,<2.9.4.0a0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/tbb-2021.11.0-h2ffa867_1",
+  "files": [
+    "lib/libtbb.12.11.dylib",
+    "lib/libtbb.12.dylib",
+    "lib/libtbbmalloc.2.11.dylib",
+    "lib/libtbbmalloc.2.dylib",
+    "lib/libtbbmalloc_proxy.2.11.dylib",
+    "lib/libtbbmalloc_proxy.2.dylib"
+  ],
+  "fn": "tbb-2021.11.0-h2ffa867_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/tbb-2021.11.0-h2ffa867_1",
+    "type": 1
+  },
+  "md5": "e5584996979b373d50560a28321547e9",
+  "name": "tbb",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/tbb-2021.11.0-h2ffa867_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.12.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "228b2c5e697db75c77a2f967321c79e34ed164f3b2714a6c94b9727447afb2ba",
+        "sha256_in_prefix": "228b2c5e697db75c77a2f967321c79e34ed164f3b2714a6c94b9727447afb2ba",
+        "size_in_bytes": 366384
+      },
+      {
+        "_path": "lib/libtbb.12.dylib",
+        "path_type": "softlink",
+        "sha256": "228b2c5e697db75c77a2f967321c79e34ed164f3b2714a6c94b9727447afb2ba",
+        "size_in_bytes": 366384
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "f163e429c2b17364ebb39e5d287544841746e07aec97911799c92ceb6f8f8bb1",
+        "sha256_in_prefix": "f163e429c2b17364ebb39e5d287544841746e07aec97911799c92ceb6f8f8bb1",
+        "size_in_bytes": 111216
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f163e429c2b17364ebb39e5d287544841746e07aec97911799c92ceb6f8f8bb1",
+        "size_in_bytes": 111216
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "a5d599de5bdf6f286a41b517679ac3076823f7b9d9337383d1b2682774e41287",
+        "sha256_in_prefix": "a5d599de5bdf6f286a41b517679ac3076823f7b9d9337383d1b2682774e41287",
+        "size_in_bytes": 54656
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.dylib",
+        "path_type": "softlink",
+        "sha256": "a5d599de5bdf6f286a41b517679ac3076823f7b9d9337383d1b2682774e41287",
+        "size_in_bytes": 54656
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "35aa1918c901fb784c74f3d322f21a87d5bf57fbf02e5586778152b5c4cd82da",
+  "size": 128174,
+  "subdir": "osx-arm64",
+  "timestamp": 1706163796000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/tbb-2021.11.0-h2ffa867_1.conda",
+  "version": "2021.11.0"
+}

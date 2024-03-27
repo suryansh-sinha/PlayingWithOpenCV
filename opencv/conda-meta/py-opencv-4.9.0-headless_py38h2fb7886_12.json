@@ -1,0 +1,35 @@
+{
+  "build": "headless_py38h2fb7886_12",
+  "build_number": 12,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libopencv 4.9.0 headless_py38h4ae7e67_12",
+    "libprotobuf >=4.25.3,<4.25.4.0a0",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/py-opencv-4.9.0-headless_py38h2fb7886_12",
+  "files": [],
+  "fn": "py-opencv-4.9.0-headless_py38h2fb7886_12.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/py-opencv-4.9.0-headless_py38h2fb7886_12",
+    "type": 1
+  },
+  "md5": "91bd4e8c14a1f37c8c80d98f4f84a06c",
+  "name": "py-opencv",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/py-opencv-4.9.0-headless_py38h2fb7886_12.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "55029258855e12125891fa01684689a0d50daf6d9101fde66259d60e4316b573",
+  "size": 1183194,
+  "subdir": "osx-arm64",
+  "timestamp": 1711060267000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/py-opencv-4.9.0-headless_py38h2fb7886_12.conda",
+  "version": "4.9.0"
+}

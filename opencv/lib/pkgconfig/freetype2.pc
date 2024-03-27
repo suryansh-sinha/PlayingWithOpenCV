@@ -1,0 +1,14 @@
+prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+exec_prefix=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv
+libdir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib
+includedir=/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lfreetype
+Libs.private: -lz -L/Users/suryanshsinha/Desktop/PlayingWithOpenCV/opencv/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
