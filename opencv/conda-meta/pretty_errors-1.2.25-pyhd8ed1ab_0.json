@@ -1,0 +1,118 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorama",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/pretty_errors-1.2.25-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/METADATA",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/RECORD",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pretty_errors-1.2.25.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pretty_errors/__init__.py",
+    "lib/python3.8/site-packages/pretty_errors/__main__.py",
+    "lib/python3.8/site-packages/pretty_errors/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pretty_errors/__pycache__/__main__.cpython-38.pyc"
+  ],
+  "fn": "pretty_errors-1.2.25-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/pretty_errors-1.2.25-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3a4b684769e9bc189145c3e0c0f0f683",
+  "name": "pretty_errors",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/pretty_errors-1.2.25-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9a6a172cf40acc22692b4d67351a96359d0ccc529a4ca70c250d08c111731d77",
+        "sha256_in_prefix": "9a6a172cf40acc22692b4d67351a96359d0ccc529a4ca70c250d08c111731d77",
+        "size_in_bytes": 12639
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "746e6f7cd894be33731f5fe769d4e81dd14e6f054282420a4dca2a0c9efe86ab",
+        "sha256_in_prefix": "746e6f7cd894be33731f5fe769d4e81dd14e6f054282420a4dca2a0c9efe86ab",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c36bf33e97aa708f05f00356053a36308e42894a6b8d0eb7bf8e07ea1490efcd",
+        "sha256_in_prefix": "c36bf33e97aa708f05f00356053a36308e42894a6b8d0eb7bf8e07ea1490efcd",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pretty_errors-1.2.25.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4517a12de3bb502853ca70de981fd0e0de68b821cb06070720240a374e0c5d91",
+        "sha256_in_prefix": "4517a12de3bb502853ca70de981fd0e0de68b821cb06070720240a374e0c5d91",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/pretty_errors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "067db9e47da7b050927160dddad9f2d58e0513a67a6f3114dde45d664fcc9692",
+        "sha256_in_prefix": "067db9e47da7b050927160dddad9f2d58e0513a67a6f3114dde45d664fcc9692",
+        "size_in_bytes": 42851
+      },
+      {
+        "_path": "site-packages/pretty_errors/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "84359fab219abde91690dae0c39e70c8aa6729a372cb8f69bda728d7ad2c0109",
+        "sha256_in_prefix": "84359fab219abde91690dae0c39e70c8aa6729a372cb8f69bda728d7ad2c0109",
+        "size_in_bytes": 12170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pretty_errors/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pretty_errors/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge::pretty_errors",
+  "sha256": "fe0b7d9c17a6343660858eeaca0ed04bb0febc6ef09b8866a8e18a7834582c5d",
+  "size": 18720,
+  "subdir": "noarch",
+  "timestamp": 1638034841000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pretty_errors-1.2.25-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.2.25"
+}

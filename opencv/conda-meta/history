@@ -121,3 +121,9 @@
 +conda-forge/osx-arm64::zlib-1.2.13-h53f4e23_5
 +conda-forge/osx-arm64::zstd-1.5.5-h4f39d0f_0
 # update specs: ['opencv']
+==> 2024-03-27 18:05:34 <==
+# cmd: /opt/miniconda3/bin/conda install conda-forge::pretty_errors
+# conda version: 24.3.0
++conda-forge/noarch::pretty_errors-1.2.25-pyhd8ed1ab_0
++defaults/osx-arm64::colorama-0.4.6-py38hca03da5_0
+# update specs: ['conda-forge::pretty_errors']
