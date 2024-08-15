@@ -12,7 +12,7 @@ def resizeFrame(frame, interpolation: int, scale=1.5):
 # 5 types of interpolation in OpenCV - Linear, Cubic, Area, Nearest Neighbours, Sinusoidal.
 # Linear is fastest, cubic is slow but gives good contrast ratio.
 
-img = cv2.imread('Basics/Photos/park.jpg')
+img = cv2.imread('Photos/park.jpg')
 linearImg = resizeFrame(img, cv2.INTER_LINEAR, scale=1.5)
 cubicImg = resizeFrame(img, cv2.INTER_CUBIC, scale=1.5)
 areaImg = resizeFrame(img, cv2.INTER_AREA, scale=1.5)
@@ -29,16 +29,19 @@ def changeRes(width, height):
 
 capture = cv2.VideoCapture('Videos/dog.mp4')
 
-while True:
+while capture.isOpened():
     # Returns the frame and a boolean saying if the frame was successfully read or not
-    isTrue, frame = capture.read()
+    ret, frame = capture.read()
     
-    frame_resized = resizeFrame(frame, scale=0.5)
+    if ret:
+        frame_resized = resizeFrame(frame, cv2.INTER_LINEAR, scale=0.5)
+        cv2.imshow('Video', frame)
+        cv2.imshow('Video Resized', frame_resized)
+    else:
+        print("Stream ended")
+        break
     
-    cv2.imshow('Video', frame)
-    cv2.imshow('Video Resized', frame_resized)
-    
-    if cv2.waitKey(20) & 0xFF==ord('d'):
+    if cv2.waitKey(20) & 0xFF==ord('q'):
         break
     
 capture.release()
