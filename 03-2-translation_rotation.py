@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Photos/park.jpg')
+# Height, Width, Color Channels
+img = cv2.imread('Photos/park.jpg', cv2.IMREAD_COLOR)
 cv2.imshow('Boston', img)
 
 # Warp Affine always requires a 2x3 matrix.
@@ -18,7 +19,7 @@ cv2.imshow('Boston', img)
 def translate(img, x, y):
     transMat = np.float32([[1, 0, x],
                            [0, 1, y]])
-    dimensions = (img.shape[1], img.shape[1])
+    dimensions = (img.shape[1], img.shape[0])
     return cv2.warpAffine(img, transMat, dimensions)
 
 translated = translate(img, -100, 100)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Basics/Photos/park.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('Photos/park.jpg', cv2.IMREAD_COLOR)
 
 # We can sharpen an image by using image arithmetics.
 # We subtract blurred image from original image such that the output is 1.

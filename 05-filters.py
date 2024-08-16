@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Basics/Photos/park.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('Photos/park.jpg', cv2.IMREAD_COLOR)
 
 kernel_identity = np.array([[0, 0, 0],
                             [0, 1, 0],
@@ -13,7 +13,7 @@ kernel_11x11 = np.ones((11,11), dtype=np.int32) / 121.0
 size = 15
 kernel_horizontal = np.zeros((size, size))
 kernel_horizontal[int(size-1) // 2, :] = np.ones(size)
-kernel_horizontal /= 15
+kernel_horizontal /= 15 # Dividing to normalize outputs
 
 # Applying the filters
 # ddepth = depth of the input image. -1 takes this automatically.

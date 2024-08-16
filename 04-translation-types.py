@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Basics/Photos/park.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('Photos/park.jpg', cv2.IMREAD_COLOR)
 cv2.imshow('original', img)
 
 # Using Euclidean/Isometric Transforms

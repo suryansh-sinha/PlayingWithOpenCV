@@ -2,7 +2,7 @@
 import cv2
 
 # Creating capture source
-cap = cv2.VideoCapture('Basics/Videos/dog.mp4')
+cap = cv2.VideoCapture('Videos/dog.mp4')
 
 # Getting video properties
 total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
@@ -13,7 +13,7 @@ frame_size = (width, height)
 
 # Creating the codec
 codec = cv2.VideoWriter_fourcc(*'MJPG')
-output = cv2.VideoWriter('Basics/reversed.avi', codec, fps, frame_size)
+output = cv2.VideoWriter('Videos/reversed.avi', codec, fps, frame_size)
 
 print(total_frames)
 
