@@ -10,16 +10,23 @@ def resizeFrame(frame, interpolation: int, scale=1.5):
 
 # Scaling always requires interpolation which are techniques used to fill blank spaces.
 # 5 types of interpolation in OpenCV - Linear, Cubic, Area, Nearest Neighbours, Sinusoidal.
+# Area is the default. We use area when shrinking the image.
+# When enlarging the image, use linear or cubic.
 # Linear is fastest, cubic is slow but gives good contrast ratio.
 
 img = cv2.imread('Photos/park.jpg')
 linearImg = resizeFrame(img, cv2.INTER_LINEAR, scale=1.5)
 cubicImg = resizeFrame(img, cv2.INTER_CUBIC, scale=1.5)
 areaImg = resizeFrame(img, cv2.INTER_AREA, scale=1.5)
+
+# Cropping an image
+crop = img[50:200, 200:400]
+
 cv2.imshow('Original Img', img)
 cv2.imshow('Linearly Interpolation Rescaled Image', linearImg)
 cv2.imshow('Cubic Interpolation Rescaled Image', cubicImg)
 cv2.imshow('Area Interpolation Rescaled Image', areaImg)
+cv2.imshow('Cropped', crop)
 cv2.waitKey(0)
 
 def changeRes(width, height):

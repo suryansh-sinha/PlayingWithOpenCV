@@ -10,6 +10,7 @@ kernel_25 = np.ones((25, 25), dtype=np.float32) / 625.0
 output_kernel = cv2.filter2D(img, -1, kernel_25)
 
 # Average blur function blurring. ksize = kernel size
+# Center pixel assigned with the average of all pixels in the kernel.
 output_blur = cv2.blur(img, ksize=(25, 25)) # This does the same thing as above two lines.
 
 # Box filter. Here normalize=False matlab divide nahi kar raha woh total se.
